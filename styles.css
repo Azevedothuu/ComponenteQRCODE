@@ -6,6 +6,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .Componente {
@@ -37,3 +39,9 @@ body {
     font-size: 70%;
     color: #aaa;
 }
+
+@media (min-width: 768px) {
+    body {
+      flex-direction: row;
+    }
+} 
