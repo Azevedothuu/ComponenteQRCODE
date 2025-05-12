@@ -1,0 +1,39 @@
+
+body {
+    background-color: hsl(216, 15%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Componente {
+    background-color: white;
+    width: 230px;
+    height: 350px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.Componente .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Componente .image img {
+    width: 200px;
+    border-radius: 4px;
+}
+
+.Componente .conteudo p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2px;
+}
+
+.Componente .conteudo #subtext {
+    font-size: 70%;
+    color: #aaa;
+}
